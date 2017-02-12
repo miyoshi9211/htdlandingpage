@@ -1,0 +1,95 @@
+#large-margin {
+	margin-top: 192px;
+	margin-bottom: 192px;
+}
+
+#hero {
+	background-image: url('http://gamingtrend.com/wp-content/screenshots/the-amazing-spider-man/asm-spider-man-web-rushing-across-the-streets.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#mytheme .mytheme-row-gray {
+	background-color: #767676;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.fullpage {
+	height: 100%;
+	/*to center content horizontally and vertically*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullpage-img {
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.fullpage-content {
+	width: 60%;
+}
+
+.fullpage-content h2 {
+	font-size: 56px;
+	color: #d11176;
+}
+
+.fullpage-content h3 {
+	font-size: 26px;
+	color: white;
+}
+
+.theme-img1 {
+	background-image: url(../images/05318add279d348b9aadbbc41729fe0e.jpg);
+-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+}
+
+.theme-img2 {
+background-image: url(../images/9039263f77ae5ce2fa004a28174a732e.jpg);
+/*	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);*/
+}
+
+.theme-img3 {
+	background-image:url(https://assets.yesstud.io/cartelandco/cache/cartelandco-12504-w1500-h1000-q90-rz3-b75.jpg));
+	
+}
+.sidenav {
+
+	position: fixed;
+	top: 30%;
+	right: 15px;
+	width: 22px;
+	opacity: 0;
+	
+
+	/*to fix disappearing problem*/
+	z-index: 999999;
+}
+
+
+#mytheme .sidenav-link {
+	margin-bottom: 15px;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
